@@ -1,4 +1,4 @@
-# Vue-component-template
+# Vue-component-storybook-template
 
 ## About
 a quick environment for developing Vue components using storybook,circle-ci,vue-cli,postcss,jest
@@ -10,7 +10,7 @@ Clone this repo. Use it as a template for creating and testing your own Vue comp
 
 ```bash
 # install dependencies
-npm install
+yarn install
 
 # serve with hot reload at localhost:8080
 npm run dev
@@ -23,8 +23,11 @@ npm run build
 
 ```bash
 # run storybook
-npm run storybook
+yarn run storybook
 http://localhost:9001/
+
+# generate static
+yarn run storybookoutput
 ```
 # Resources
 
