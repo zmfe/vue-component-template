@@ -1,0 +1,1 @@
+# a component readme for example

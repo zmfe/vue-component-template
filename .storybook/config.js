@@ -7,7 +7,7 @@ import Vue from "vue";
 // Vue.component("my-button", MyButton);
 
 function loadStories() {
-  require("../src/component");
+  require("../src/component/story.js");
 }
 
 configure(loadStories, module);
